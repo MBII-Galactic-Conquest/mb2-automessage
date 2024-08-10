@@ -35,16 +35,19 @@ No additional steps required for permissions.
 Edit the automessage.cfg file to set up your server details and messages:
 ```json
 {
-    "address": "YOUR_SERVER_IP",
+    "address": "SERVER_IP",
     "port": 29070,
-    "rcon_password": "YOUR_RCON_PASSWORD",
-    "interval": 5,
+    "rcon_password": "RCON_PASSWORD",
+    "interval": 10,
     "messages": [
-        "Your message 1",
-        "Your message 2",
-        "Your message 3"
+        "Message 1",
+        "Message 2",
+        "Message 3",
+        "Message 4",
+        "Message 5"
     ]
 }
+
 ```
 * address: Your server's IP address
 * port: Your server's port
