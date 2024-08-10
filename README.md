@@ -81,7 +81,7 @@ To stop the plugin:
 
 The plugin's output will be logged to automessage.log in the same directory.
 
-Note: If you encounter any issues with the .bat files, you can still run the plugin directly using Python:
+***Note:*** If you encounter any issues with the .bat files, you can still run the plugin directly using Python:
 
 1. Open Command Prompt
 2. Navigate to the directory containing the scripts
