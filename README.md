@@ -1,6 +1,6 @@
 # Auto Message Plugin for MBII Server
 
-This plugin automatically sends messages to your Movie Battles II server at specified intervals. It's designed to be easy to set up and use, with configuration separated from the main script for easy customization.
+This plugin automatically sends messages to your Movie Battles II server at specified intervals. 
 
 ## Features
 
@@ -19,11 +19,17 @@ This plugin automatically sends messages to your Movie Battles II server at spec
 
 1. Clone this repository or download the files to your server.
 2. Ensure you have Python 2.7 installed on your system.
-3. Make sure the scripts have the correct permissions:
+
+### For Linux Users:
+1. Make sure the files have the correct permissions:
 
 ```bash
 chmod +x automessage.py start.sh stop.sh
 ```
+
+### For Windows Users:
+
+No additional steps required for permissions.
 
 ## Configuration
 Edit the automessage.cfg file to set up your server details and messages:
@@ -44,9 +50,12 @@ Edit the automessage.cfg file to set up your server details and messages:
 * port: Your server's port
 * rcon_password: Your server's RCON password
 * interval: Time between messages in minutes
-* messages: Unlimited list of messages to send (randomly selected)
+* messages: List of messages to send (randomly selected)
 
 ## Usage
+
+### For Linux Users:
+
 To start the plugin:
 ```bash
 ./start.sh
@@ -57,7 +66,27 @@ To stop the plugin:
 ./stop.sh
 ```
 
+### For Windows Users:
+
+To start the plugin:
+
+1. Double-click the start.bat
+
+To stop the plugin:
+
+1. Double-click the stop.bat file
+
 The plugin's output will be logged to automessage.log in the same directory.
+
+Note: If you encounter any issues with the .bat files, you can still run the plugin directly using Python:
+
+1. Open Command Prompt
+2. Navigate to the directory containing the scripts
+3. Run the following command to start:
+```bash
+python automessage.py
+```
+4. The plugin's output will be logged to automessage.log in the same directory.
 
 ## Troubleshooting
 
