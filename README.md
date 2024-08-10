@@ -77,7 +77,7 @@ To start the plugin:
 
 To stop the plugin:
 
-1. Double-click the stop.bat file
+1. Double-click the stop.bat file or just close the cmd window.
 
 The plugin's output will be logged to automessage.log in the same directory.
 
